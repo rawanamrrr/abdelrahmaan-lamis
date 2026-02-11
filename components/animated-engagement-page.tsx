@@ -260,7 +260,7 @@ export default function AnimatedEngagementPage() {
                     </motion.div>
                     <div className="text-left">
                       <p className="text-sm text-muted-foreground">Location</p>
-                      <p className="text-lg font-semibold text-foreground">Helnan Maamora / Alexandria</p>
+                      <p className="text-lg font-semibold text-foreground">Helnan Maamora   Alexandria</p>
                     </div>
                   </div>
                 </motion.div>
@@ -425,7 +425,7 @@ export default function AnimatedEngagementPage() {
                           viewport={{ once: true }}
                           transition={{ delay: 0.2 }}
                         >
-                          Helnan Maamora / Alexandria
+                          Helnan Maamora   Alexandria
                         </motion.h3>
                         <motion.p
                           className="text-2xl md:text-3xl text-muted-foreground mb-8 font-light"

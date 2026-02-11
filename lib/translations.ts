@@ -95,8 +95,8 @@ export const translations: Translations = {
     ar: '٦:٠٠ مساءً',
   },
   location: {
-    en: 'Helnan Maamora / Alexandria',
-    ar: 'هلنان المعمورة / الإسكندرية',
+    en: 'Helnan Maamora  Alexandria',
+    ar: 'هلنان المعمورة  الإسكندرية',
   },
   rsvpTitle: {
     en: 'Will You Join Us?',

@@ -45,7 +45,18 @@ export default function Home() {
       video.playsInline = true
       video.src = "/invitation-design.mp4"
       video.onloadeddata = handleImageLoad
+      video.style.position = "absolute"
+      video.style.width = "1px"
+      video.style.height = "1px"
+      video.style.opacity = "0"
+      video.style.pointerEvents = "none"
+      document.body.appendChild(video)
       video.load()
+
+      return () => {
+        video.onloadeddata = null
+        video.remove()
+      }
     }
   }, [mounted, handleImageLoad])
 
