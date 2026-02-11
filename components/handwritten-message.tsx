@@ -493,7 +493,7 @@ export default function HandwrittenMessage() {
   return (
     <section 
       id="message" 
-      className="py-16 px-4 md:py-20 bg-gradient-to-b from-background to-accent/5 select-none overflow-x-hidden"
+      className="py-16 px-4 md:py-20 bg-gradient-to-b from-transparent via-accent/5 to-transparent select-none overflow-x-hidden"
       style={{
         clipPath: 'polygon(0 3%, 100% 0%, 100% 97%, 0% 100%)',
       }}
@@ -517,27 +517,20 @@ export default function HandwrittenMessage() {
           }}
         >
           <div className="flex items-center justify-center gap-4 mb-8">
-            <div 
-              className="w-32 h-px bg-gradient-to-r from-transparent via-accent to-transparent"
-              style={{
-                backgroundImage: 'linear-gradient(to right, transparent, var(--accent), transparent)'
-              }}
-            />
+            <div className="h-px w-16 bg-accent/40" />
             <div className="relative">
-              <MessageCircle className="w-6 h-6 text-accent" />
+              <MessageCircle className="w-8 h-8 text-accent" />
             </div>
-            <div 
-              className="w-32 h-px bg-gradient-to-r from-transparent via-accent to-transparent"
-              style={{
-                backgroundImage: 'linear-gradient(to right, transparent, var(--accent), transparent)'
-              }}
-            />
+            <div className="h-px w-16 bg-accent/40" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-serif font-medium mb-2 select-none">{t('writeUsMessage')}</h2>
-          <p className="text-gray-600 text-center mb-4 select-none">{t('writeUsDescription')}</p>
-          <div className="w-20 h-1 bg-accent mx-auto mb-6 select-none"></div>
+          <h2 className="font-luxury text-5xl md:text-6xl lg:text-7xl text-foreground leading-tight mb-6 tracking-wide select-none">
+            {t('writeUsMessage')}
+          </h2>
+          <p className="font-luxury text-2xl md:text-3xl italic text-muted-foreground text-center mb-10 select-none">
+            {t('writeUsDescription')}
+          </p>
           
-                    <div className="bg-card p-4 sm:p-6 md:p-8 rounded-lg shadow-lg select-none pb-6 sm:pb-8">
+          <div className="bg-card/80 backdrop-blur-sm border border-accent/20 p-4 sm:p-6 md:p-8 rounded-3xl shadow-2xl select-none pb-6 sm:pb-8">
             {/* Message Type Tabs - Prominent Button Style */}
             <div className="flex gap-4 mb-8 justify-center">
               <button

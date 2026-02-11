@@ -179,8 +179,8 @@ export const translations: Translations = {
     ar: 'اكتبوا لنا رسالة',
   },
   writeUsDescription: {
-    en: 'Leave us a handwritten note or message',
-    ar: 'اتركوا لنا رسالة بخط اليد',
+    en: 'Leave us a note or message',
+    ar: 'اتركوا لنا رسالة ',
   },
   drawnMessage: {
     en: 'Drawn Message',

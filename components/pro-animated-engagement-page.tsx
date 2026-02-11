@@ -278,7 +278,7 @@ export default function ProAnimatedEngagementPage({ onImageLoad, introFinished }
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background to-secondary/20 overflow-x-hidden pt-0">
+    <div className="min-h-screen bg-transparent overflow-x-hidden pt-0">
       {/* Hero Section */}
       <motion.section 
         className="relative w-full overflow-hidden pt-0 -mt-4"
