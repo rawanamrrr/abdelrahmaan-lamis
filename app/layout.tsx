@@ -18,18 +18,18 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://abbelrahman-lamis.digitivaa.com"),
+  metadataBase: new URL("https://abdelrahmaan-lamis.digitivaa.com"),
   title: "Abdelrahman & Lamis - Wedding Celebration",
   description: "Join us in celebrating Abdelrahman & Lamis's wedding",
   generator: "Digitiva",
   openGraph: {
-    url: "https://abbelrahman-lamis.digitivaa.com/",
+    url: "https://abdelrahmaan-lamis.digitivaa.com/",
     type: "website",
     title: "Abdelrahman & Lamis - Wedding Celebration",
     description: "Join us in celebrating Abdelrahman & Lamis's wedding",
     images: [
       {
-        url: "https://abbelrahman-lamis.digitivaa.com/invitation-design.jpg",
+        url: "https://abdelrahmaan-lamis.digitivaa.com/invitation-design.jpg",
         width: 768,
         height: 1365,
         alt: "Abdelrahman & Lamis Wedding Invitation",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Abdelrahman & Lamis - Wedding Celebration",
     description: "Join us in celebrating Abdelrahman & Lamis's wedding",
-    images: ["https://abbelrahman-lamis.digitivaa.com/invitation-design.jpg"],
+    images: ["https://abdelrahmaan-lamis.digitivaa.com/invitation-design.jpg"],
   },
   icons: {
     icon: "/invitation-design.jpg",
@@ -57,14 +57,14 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Open Graph tags for Facebook & WhatsApp previews */}
-        <meta property="og:url" content="https://abbelrahman-lamis.digitivaa.com/" />
+        <meta property="og:url" content="https://abdelrahmaan-lamis.digitivaa.com/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Abdelrahman & Lamis - Wedding Celebration" />
         <meta property="og:description" content="Join us in celebrating Abdelrahman & Lamis's wedding" />
         <meta
           property="og:image"
-          content="https://abbelrahman-lamis.digitivaa.com/invitation-design.jpg"
+          content="https://abdelrahmaan-lamis.digitivaa.com/invitation-design.jpg"
         />
 
         <meta property="og:image:width" content="768" />
@@ -76,7 +76,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Abdelrahman & Lamis - Wedding Celebration" />
         <meta name="twitter:description" content="Join us in celebrating Abdelrahman & Lamis's wedding" />
-        <meta name="twitter:image" content="https://abbelrahman-lamis.digitivaa.com/invitation-design.jpg" />
+        <meta name="twitter:image" content="https://abdelrahmaan-lamis.digitivaa.com/invitation-design.jpg" />
 
         {/* Preload PNG with high priority to eliminate lag on Netlify */}
         <link
